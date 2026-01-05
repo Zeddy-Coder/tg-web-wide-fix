@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Telegram Web K Wide Layout",
+  "version": "1.0",
+  "description": "Розтягує Телеграм на всю ширину для комфортного читання",
+  "author": "Zeddy-Coder",
+  "content_scripts": [
+    {
+      "matches": ["https://web.telegram.org/k/*"],
+      "css": ["style.css"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tg-wide-fix@zeddy-coder.github.io",
+      "strict_min_version": "109.0"
+    }
+  }
+}
