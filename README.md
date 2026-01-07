@@ -1,1 +1,1 @@
-# tg-web-wide-fix
+# Telegram Web K widescreen fix
